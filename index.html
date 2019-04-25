@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Encuesta sobre salud bucodental</title>
 <style>
 h1 {color:gray; font-family:Arial;}
@@ -11,7 +10,7 @@ body {font-family:Arial;}
 </head>
 <body bgcolor="powderblue">
 <h1>Encuesta sobre salud bucodental</h1>
-	<form action="mailto:gabrieldelgado83@hotmail.com" method="post">
+	<form action="https://darkmedal.github.io/encuesta/respuestas" method="post">
 		<p>
 		Sexo:</br>
 		<input type="radio" name="genero" value="Hombre">Hombre</br>
@@ -38,10 +37,38 @@ body {font-family:Arial;}
 		<option value="anos">Hace más de 2 años</option>
 		</select>
 		</p>
+		<p>
+		¿Cuál fue el motivo?</br>
+		<select name="ultima_motivo">
+		<option value="revision">Revisión</option>
+		<option value="limpieza">Limpieza</option>
+		<option value="dolor">Dolor</option>
+		<option value="presupuesto">Presupuesto</option>
+		<option value="otros">Otros</option>
+		</select>
+		</p>
+		<p>
+		¿En qué te basas para elegir dentista?</br>
+		<select name="elegir">
+		<option value="referido">Voy al que me han aconsejado mis conocidos</option>
+		<option value="barato">Voy al más barato</option>
+		<option value="cita_rapida">Voy al que antes me de cita</option>
+		<option value="cercania">Voy al más cercano a mi casa/trabajo</option>
+		<option value="buscar_internet">Busco por internet referencias y voy al que mejor tenga</option>
+		</select>
+		</p>
+		<p>
+		¿Cuanta importancia le das a la puntualidad?</br>
+		<select name="puntualidad">
+		<option value="puntual_mucha">Mucha, si no me atienden puntualmente estoy dispuest@ a irme</option>
+		<option value="puntual_regular">Regular, puedo entender que en alguna ocasión lleve retraso</option>
+		<option value="puntual_poca">Poca, al médico se va sin prisas</option>
+		</select>
+		</p>
+		
 		
 
 		<input type="submit" value="Enviar"/>
 	</form>
 </body>
 </html>
-
